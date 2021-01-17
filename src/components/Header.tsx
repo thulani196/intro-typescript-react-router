@@ -1,7 +1,7 @@
 import * as React from "react";
 import { NavLink, RouteComponentProps, withRouter } from "react-router-dom";
 import "url-search-params-polyfill";
-import logo from "../../../my-app/src/logo.svg";
+import logo from "../logo.svg";
 
 const Header: React.SFC<RouteComponentProps> = (props) => {
   const [search, setSearch] = React.useState("");
