@@ -13,7 +13,7 @@ import ProductPage from "../../pages/ProductPage";
 import ProductsPage from "../../pages/ProductsPage";
 
 const Routes = () => {
-  const [loggedIn, setLoggedIn] = React.useState(false);
+  const [loggedIn, setLoggedIn] = React.useState(true);
   return (
     <Router>
       <Header />
