@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import { NavLink, Route, RouteComponentProps } from "react-router-dom";
 import AdminProducts from "./AdminProducts";
 import AdminUsers from "./AdminUsers";
